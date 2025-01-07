@@ -1,6 +1,13 @@
 
 # Type hints for writing S7SvrSim Scripts 
 
+## Install
+
+```bash
+pip install s7svrsim
+```
+
+## Usage
 
 ```python
 from s7svrsim import hints
