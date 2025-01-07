@@ -96,6 +96,11 @@ class S7MB(ABC):
     def WriteString(self, offset:int, maxlen: int, string: str):
         pass
 
+
+class CancellationToken(ABC):
+    IsCancellationRequested: bool
+    CanBeCanceled: bool
+
 class Logger(ABC):
 
     def LogInfo(self, content: str):

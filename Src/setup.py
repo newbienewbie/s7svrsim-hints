@@ -2,12 +2,12 @@ from setuptools import setup, find_packages
 
 setup(
     name="s7svrsim", 
-    version="0.1.0",  
+    version="0.1.1",  
     author="newbienewbie",   
     description="type hints for writing S7SvrSim scripts",   
     long_description=open("../README.md").read(),  
     long_description_content_type="text/markdown",  
-    url="https://github.com/newbienewbie/S7SvrSimTypeHints",  
+    url="https://github.com/newbienewbie/s7svrsim-hints",  
     packages=find_packages(),   
     classifiers=[   
         "Programming Language :: Python :: 3",
